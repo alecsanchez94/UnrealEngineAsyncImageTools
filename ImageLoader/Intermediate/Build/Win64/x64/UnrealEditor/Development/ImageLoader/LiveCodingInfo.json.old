@@ -1,0 +1,16 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ImageLoader.cpp.obj": [
+			"ImageLoader.init.gen.cpp.obj",
+			"ImageLoaderSubSystem.gen.cpp.obj",
+			"LoadImageToTextureAsync.gen.cpp.obj",
+			"UImageLoaderStatics.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"LoadImageToTextureAsync.cpp.obj",
+			"UImageLoaderStatics.cpp.obj",
+			"ImageLoader.cpp.obj",
+			"ImageLoaderSubSystem.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imageloader\\module.imageloader.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\riderprojects\\prototype86_community\\intermediate\\build\\win64\\x64\\prototype87_55editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imageloader\\definitions.imageloader.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\imageloader.init.gen.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\imageloadersubsystem.gen.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\subsystem\\imageloadersubsystem.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\asyncnodes\\loadimagetotextureasync.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintasyncactionbase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintasyncactionbase.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\loadimagetotextureasync.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\imageloadersubsystem.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\loadimagetotextureasync.gen.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\savetexturetodiskasync.gen.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\savetexturetodisk\\savetexturetodiskasync.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\savetexturetodiskasync.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\uimageloaderstatics.gen.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\functionlibrary\\uimageloaderstatics.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\uimageloaderstatics.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imageloader\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\asyncnodes\\loadimagetotextureasync.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\functionlibrary\\uimageloaderstatics.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\public\\imageutils.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\private\\imageloader.cpp",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\public\\imageloader.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\subsystem\\imageloadersubsystem.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\imagewrapper\\public\\iimagewrapper.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\imagewrapper\\public\\imagewrapperoutputtypes.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\imagewrapper\\public\\iimagewrappermodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

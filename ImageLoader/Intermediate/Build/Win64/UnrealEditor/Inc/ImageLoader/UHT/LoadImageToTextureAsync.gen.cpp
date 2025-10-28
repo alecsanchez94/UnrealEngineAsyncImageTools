@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "ImageLoader/AsyncNodes/LoadImageToTextureAsync.h"
+#include "ImageLoader/LoadImageFromDisk/LoadImageToTextureAsync.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeLoadImageToTextureAsync() {}
 
@@ -32,7 +32,7 @@ struct Z_Construct_UDelegateFunction_ImageLoader_OnImageLoadCompletedBP__Delegat
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LoadedTexture;
@@ -82,7 +82,7 @@ struct Z_Construct_UDelegateFunction_ImageLoader_OnImageLoadFailureBP__DelegateS
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -116,7 +116,7 @@ struct Z_Construct_UFunction_ULoadImageToTextureAsync_LoadImageToTextureAsync_St
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "ImageLoader" },
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 		{ "WorldContext", "WorldContextObject" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NewWorldContext_MetaData[] = {
@@ -182,18 +182,18 @@ struct Z_Construct_UClass_ULoadImageToTextureAsync_Statics
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
 #endif
-		{ "IncludePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "IncludePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 		{ "IsBlueprintBase", "true" },
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnImageLoadCompleted_MetaData[] = {
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnImageLoadFailure_MetaData[] = {
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WorldContext_MetaData[] = {
-		{ "ModuleRelativePath", "AsyncNodes/LoadImageToTextureAsync.h" },
+		{ "ModuleRelativePath", "LoadImageFromDisk/LoadImageToTextureAsync.h" },
 		{ "NativeConst", "" },
 	};
 #endif // WITH_METADATA
@@ -203,7 +203,7 @@ struct Z_Construct_UClass_ULoadImageToTextureAsync_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ULoadImageToTextureAsync_LoadImageToTextureAsync, "LoadImageToTextureAsync" }, // 3539112854
+		{ &Z_Construct_UFunction_ULoadImageToTextureAsync_LoadImageToTextureAsync, "LoadImageToTextureAsync" }, // 2776519837
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -211,8 +211,8 @@ struct Z_Construct_UClass_ULoadImageToTextureAsync_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULoadImageToTextureAsync_Statics::NewProp_OnImageLoadCompleted = { "OnImageLoadCompleted", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULoadImageToTextureAsync, OnImageLoadCompleted), Z_Construct_UDelegateFunction_ImageLoader_OnImageLoadCompletedBP__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnImageLoadCompleted_MetaData), NewProp_OnImageLoadCompleted_MetaData) }; // 3249606062
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULoadImageToTextureAsync_Statics::NewProp_OnImageLoadFailure = { "OnImageLoadFailure", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULoadImageToTextureAsync, OnImageLoadFailure), Z_Construct_UDelegateFunction_ImageLoader_OnImageLoadFailureBP__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnImageLoadFailure_MetaData), NewProp_OnImageLoadFailure_MetaData) }; // 3740551978
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULoadImageToTextureAsync_Statics::NewProp_OnImageLoadCompleted = { "OnImageLoadCompleted", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULoadImageToTextureAsync, OnImageLoadCompleted), Z_Construct_UDelegateFunction_ImageLoader_OnImageLoadCompletedBP__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnImageLoadCompleted_MetaData), NewProp_OnImageLoadCompleted_MetaData) }; // 2319449584
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULoadImageToTextureAsync_Statics::NewProp_OnImageLoadFailure = { "OnImageLoadFailure", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULoadImageToTextureAsync, OnImageLoadFailure), Z_Construct_UDelegateFunction_ImageLoader_OnImageLoadFailureBP__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnImageLoadFailure_MetaData), NewProp_OnImageLoadFailure_MetaData) }; // 708146450
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ULoadImageToTextureAsync_Statics::NewProp_WorldContext = { "WorldContext", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULoadImageToTextureAsync, WorldContext), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WorldContext_MetaData), NewProp_WorldContext_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ULoadImageToTextureAsync_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ULoadImageToTextureAsync_Statics::NewProp_OnImageLoadCompleted,
@@ -258,14 +258,14 @@ ULoadImageToTextureAsync::~ULoadImageToTextureAsync() {}
 // End Class ULoadImageToTextureAsync
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_AsyncNodes_LoadImageToTextureAsync_h_Statics
+struct Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_LoadImageFromDisk_LoadImageToTextureAsync_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ULoadImageToTextureAsync, ULoadImageToTextureAsync::StaticClass, TEXT("ULoadImageToTextureAsync"), &Z_Registration_Info_UClass_ULoadImageToTextureAsync, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULoadImageToTextureAsync), 2535893037U) },
+		{ Z_Construct_UClass_ULoadImageToTextureAsync, ULoadImageToTextureAsync::StaticClass, TEXT("ULoadImageToTextureAsync"), &Z_Registration_Info_UClass_ULoadImageToTextureAsync, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULoadImageToTextureAsync), 73591803U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_AsyncNodes_LoadImageToTextureAsync_h_4059871258(TEXT("/Script/ImageLoader"),
-	Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_AsyncNodes_LoadImageToTextureAsync_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_AsyncNodes_LoadImageToTextureAsync_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_LoadImageFromDisk_LoadImageToTextureAsync_h_2801944246(TEXT("/Script/ImageLoader"),
+	Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_LoadImageFromDisk_LoadImageToTextureAsync_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RiderProjects_Prototype86_community_Plugins_ImageLoader_Source_ImageLoader_LoadImageFromDisk_LoadImageToTextureAsync_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

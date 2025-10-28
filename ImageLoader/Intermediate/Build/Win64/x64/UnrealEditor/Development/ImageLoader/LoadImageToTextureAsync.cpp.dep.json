@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\loadimagefromdisk\\loadimagetotextureasync.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\riderprojects\\prototype86_community\\intermediate\\build\\win64\\x64\\prototype87_55editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imageloader\\definitions.imageloader.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\loadimagefromdisk\\loadimagetotextureasync.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintasyncactionbase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintasyncactionbase.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\loadimagetotextureasync.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\functionlibrary\\uimageloaderstatics.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\uimageloaderstatics.generated.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\source\\imageloader\\subsystem\\imageloadersubsystem.h",
+            "c:\\riderprojects\\prototype86_community\\plugins\\imageloader\\intermediate\\build\\win64\\unrealeditor\\inc\\imageloader\\uht\\imageloadersubsystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

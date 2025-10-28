@@ -5,12 +5,14 @@
 			"ImageLoader.init.gen.cpp.obj",
 			"ImageLoaderSubSystem.gen.cpp.obj",
 			"LoadImageToTextureAsync.gen.cpp.obj",
+			"SaveTextureToDiskAsync.gen.cpp.obj",
 			"UImageLoaderStatics.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
-			"LoadImageToTextureAsync.cpp.obj",
 			"UImageLoaderStatics.cpp.obj",
 			"ImageLoader.cpp.obj",
-			"ImageLoaderSubSystem.cpp.obj"
+			"ImageLoaderSubSystem.cpp.obj",
+			"LoadImageToTextureAsync.cpp.obj",
+			"SaveTextureToDiskAsync.cpp.obj"
 		]
 	}
 }

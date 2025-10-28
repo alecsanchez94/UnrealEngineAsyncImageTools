@@ -5,7 +5,5 @@
 #include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Intermediate/Build/Win64/UnrealEditor/Inc/ImageLoader/UHT/SaveTextureToDiskAsync.gen.cpp"
 #include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Intermediate/Build/Win64/UnrealEditor/Inc/ImageLoader/UHT/UImageLoaderStatics.gen.cpp"
 #include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Intermediate/Build/Win64/x64/UnrealEditor/Development/ImageLoader/PerModuleInline.gen.cpp"
-#include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Source/ImageLoader/AsyncNodes/LoadImageToTextureAsync.cpp"
 #include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Source/ImageLoader/FunctionLibrary/UImageLoaderStatics.cpp"
 #include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Source/ImageLoader/Private/ImageLoader.cpp"
-#include "C:/RiderProjects/Prototype86_community/Plugins/ImageLoader/Source/ImageLoader/SubSystem/ImageLoaderSubSystem.cpp"

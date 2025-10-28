@@ -5,7 +5,6 @@
 #include "IImageWrapper.h"
 #include "IImageWrapperModule.h"
 #include "ImageUtils.h"
-#include "ImageLoader/AsyncNodes/LoadImageToTextureAsync.h"
 
 void UImageLoaderSubSystem::LoadImageAsync(FString ImagePath, FOnImageLoadCompleted OnCompleted)
 {
